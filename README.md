@@ -1,2 +1,2 @@
-# str-set
-A game oriented string set with a focus on ergonomics and performance.
+# str_set
+A string set manage system for games.

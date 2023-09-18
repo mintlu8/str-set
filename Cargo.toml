@@ -1,0 +1,23 @@
+[package]
+name = "str-set"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+readme = "README.md"
+repository = "https://github.com/mintlu8/str-set"
+description = """
+A game oriented enum-like string set with a focus on ergonomics and performance.
+"""
+keywords = ["string", "set", "enum", "flags"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+convert_case = "0.6"
+ecow = { version = "0.1", features = ["serde"] }
+identconv = "0.1"
+smallvec = { version = "1.11", features = ["serde", "const_new"] }
+
+[dev-dependencies]
+serde = "1.0.188"
